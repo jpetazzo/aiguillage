@@ -7,6 +7,7 @@ aiguillage:
     - tracking:tracking
     - gmail:appui
     - office:office
+    - secret:secret
 
 secure3:
   build: static
@@ -23,4 +24,8 @@ gmail:
 office:
   build: static
   command: "this is office"
+
+secret:
+  build: static
+  command: "this is secret"
 
