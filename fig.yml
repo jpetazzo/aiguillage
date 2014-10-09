@@ -3,11 +3,21 @@ aiguillage:
   ports:
     - 8888:80
   links:
+    - secure1:secure1
+    - secure2:secure2
     - secure3:secure3
     - tracking:tracking
     - gmail:appui
     - office:office
     - secret:secret
+
+secure1:
+  build: static
+  command: "this is secure1"
+
+secure2:
+  build: static
+  command: "this is secure2"
 
 secure3:
   build: static
