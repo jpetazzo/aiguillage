@@ -1,0 +1,4 @@
+aiguillage:
+  build: .
+  ports:
+    - 8888:80
